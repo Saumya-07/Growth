@@ -1,0 +1,172 @@
+body{
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    background-color: lavender;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* for logo and name*/
+.logo img{
+    width: 100px;
+    float: left;
+    
+}
+header h1{
+    font-size: 3rem;
+    padding-left: 5%;
+    font-weight: bold;
+    color:#0c253d;
+    padding-top: 30px;
+    padding-bottom: 1%;
+    font-variant: small-caps;  
+}
+/* for navigation bar*/
+nav ul{
+    list-style: none;
+    padding: 0;
+ 
+}
+nav ul li{
+    display: inline;
+    width: 15%;
+    
+}
+
+nav ul li a{
+    margin-right:0;
+    padding: 6px 60px;
+    text-decoration: none; 
+    border-radius: 5px;
+    display: inline-block;
+    color:white;
+}
+
+nav ul li a:hover{
+    opacity: 0.8;
+}
+
+/* nav bar colors*/
+.home{
+    border: 1px solid #ec7115;
+    background-color: #ec7115;
+ }
+
+ .about{ 
+    border: 1px solid  #33a4a5;
+    background-color:#33a4a5; 
+  }
+  .service{
+    border: 1px solid rgb(255, 166, 0);
+    background-color: rgb(255, 166, 0); 
+  }
+  .blog{
+      border: 1px solid #b3b400;
+      background-color: #b3b400;
+  }
+  .contact{
+    border: 1px solid rgb(3, 67, 97);
+    background-color: rgb(3, 67, 97);
+}
+/* for main content*/
+.main img{
+    width: 100%;
+}
+/* for blue bars*/
+.bar{
+   background-color:#121234;
+   color: #ffffff;
+   text-align: center;
+   padding: .5%;
+
+}
+/* for links*/
+.yellow{
+    border: 1px solid rgb(255, 153, 0);
+    background-color:rgb(255, 153, 0);
+    border-radius: 2px;
+    margin: 2px;
+    padding: 2px 20px;
+    
+}
+.yellow a{
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.yellow a:hover{
+    background-color: #000000;
+}
+/* for icons*/
+.content{
+    width: 100%;
+   padding: 0;
+   
+}
+.box{
+    display: inline-block;
+    width: 24%;
+}
+.inside{
+    list-style: none;
+    text-align: center;
+    
+}
+.icon img{
+    width: 50%;
+    padding: 5%;
+}
+.describe{
+    font-weight: bold;
+}
+li .link {
+    margin: 10%;
+}
+.link a{
+    text-decoration: none;
+    border: 1px solid rgb(255, 153, 0);
+    background-color:rgb(255, 153, 0);
+    border-radius: 2px;
+    padding:2%;
+    color: #000000;
+}
+/*for footer*/
+footer{
+    background: url(../images/footer1.jpg) center center no-repeat;
+    padding: 15% 3% 3% 3%;
+    color: white;
+}
+.after-content{
+    border-top: 1px solid #9dc6e7;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+@media only screen and (min-width:320px) and (max-width:1000px){
+   
+    nav ul li{
+        display: block;
+        margin-bottom: 5px;
+    }
+    nav ul li a{
+        width: 160px;
+    }
+    .box{
+        margin: 0 auto;
+        width:49%;
+    }
+    .after-content{
+        margin-bottom: 20px;
+    }
+    .right{
+        float: left;
+        overflow: visible;
+    }
+
+} 

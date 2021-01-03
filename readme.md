@@ -1,5 +1,5 @@
 # Growth 
-This is a simple business website template with HTML and CSS
+This is a simple responsive business website with HTML and CSS
 ## Home 
 ![Screenshot Home_1](https://user-images.githubusercontent.com/68998355/103452289-a68db200-4cf3-11eb-99ca-4a75b42b7907.png)
 ![Screenshot Home_2](https://user-images.githubusercontent.com/68998355/103452295-bc02dc00-4cf3-11eb-9de9-5c640a016e90.png)
